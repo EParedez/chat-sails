@@ -19,6 +19,8 @@
 
 module.exports.policies = {
 
+  '*': true,
+  'messages' : 'MessagesPolicy'
   /***************************************************************************
   *                                                                          *
   * Default policy for all controllers and actions (`true` allows public     *
